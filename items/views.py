@@ -7,3 +7,4 @@ def detail(request, pk):
     return render(request, "items/detail.html",{
         'item': item
     })
+
